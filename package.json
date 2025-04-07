@@ -1,6 +1,6 @@
 {
 	"name": "vue-cli-plugin-electron-builder-notarize",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Notarize Electron applications using electron-builder",
 	"license": "MIT",
 	"repository": "https://github.com/hn-failte/electron-builder-notarize",
