@@ -1,4 +1,4 @@
-# electron-builder-notarize
+# vue-cli-plugin-electron-builder-notarize
 
 > Notarize Electron applications using electron-builder
 
@@ -8,10 +8,10 @@ For more details regarding the options and functionality: https://github.com/ele
 
 ```
 # npm
-npm i electron-builder-notarize --save-dev
+npm i vue-cli-plugin-electron-builder-notarize --save-dev
 
 # yarn
-yarn add electron-builder-notarize --dev
+yarn add vue-cli-plugin-electron-builder-notarize --dev
 ```
 
 
@@ -22,11 +22,11 @@ In your electron-builder config:
 ```json
 {
 	...
-	"afterSign": "electron-builder-notarize",
+	"afterSign": "vue-cli-plugin-electron-builder-notarize",
 	"mac": {
 		...
 		"hardenedRuntime": true,
-		"entitlements": "./node_modules/electron-builder-notarize/entitlements.mac.inherit.plist",
+		"entitlements": "./node_modules/vue-cli-plugin-electron-builder-notarize/entitlements.mac.inherit.plist",
 	}
 }
 ```
