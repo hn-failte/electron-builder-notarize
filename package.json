@@ -1,9 +1,9 @@
 {
-	"name": "electron-builder-notarize",
-	"version": "1.5.1",
+	"name": "vue-cli-plugin-electron-builder-notarize",
+	"version": "1.0.0",
 	"description": "Notarize Electron applications using electron-builder",
 	"license": "MIT",
-	"repository": "https://github.com/karaggeorge/electron-builder-notarize",
+	"repository": "https://github.com/hn-failte/electron-builder-notarize",
 	"author": {
 		"name": "George Karagkiaouris",
 		"email": "karaggeorge0@gmail.com",
@@ -15,9 +15,7 @@
 	"engines": {
 		"node": ">=8"
 	},
-	"scripts": {
-		"test": "xo"
-	},
+	"scripts": {},
 	"files": [
 		"index.js",
 		"validate.js",
@@ -31,12 +29,11 @@
 		"builder"
 	],
 	"dependencies": {
-		"dotenv": "^8.2.0",
 		"@electron/notarize": "^2.5.0",
+		"builder-util": "^22.10.5",
+		"dotenv": "^8.2.0",
 		"js-yaml": "^3.14.0",
 		"read-pkg-up": "^7.0.0"
 	},
-	"devDependencies": {
-		"xo": "^0.24.0"
-	}
+	"devDependencies": {}
 }
